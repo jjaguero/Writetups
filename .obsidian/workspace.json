@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "e624b1edd9b56054",
+    "type": "split",
+    "children": [
+      {
+        "id": "60719c6e2899d932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c97dd93f02e28044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DockerLabs/Chocolatelovers/ChocolateLovers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ChocolateLovers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30acf536c51138d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e08be9932a04458",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b0ae5bc9049d9c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "f82497b2bfcf0f26",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "cb34a09ab858941f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "right": {
+    "id": "5f09c19dd0e184b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f0369a0bcdf6efe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc64eb29821e94a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de README"
+            }
+          },
+          {
+            "id": "e617b1f1b0757b8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de README"
+            }
+          },
+          {
+            "id": "fd306f02b7d891dc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "95241be25c965bb9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "1b7e49586b2251a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "c97dd93f02e28044",
+  "lastOpenFiles": [
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714195751.png",
+    "DockerLabs/Chocolatelovers/ChocolateLovers.md",
+    "DockerLabs/grooti/Grooti.md",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714193619.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714193313.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714192502.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714191656.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714191550.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714191503.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714203808.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714202131.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714201630.png",
+    "DockerLabs/Chocolatelovers/images/Pasted image 20260714201354.png",
+    "README.md",
+    "DockerLabs/Chocolatelovers/images",
+    "DockerLabs/Chocolatelovers",
+    "DockerLabs/grooti-DockerLabs/1- Recon.md",
+    "DockerLabs/grooti-DockerLabs/1.2 - Servicios & Versiones.md",
+    "DockerLabs/grooti-DockerLabs/2 -Enumeration.md",
+    "DockerLabs/grooti-DockerLabs/4- Privilege Escalation.md",
+    "DockerLabs/grooti-DockerLabs/3 - Exploit.md",
+    "DockerLabs/grooti-DockerLabs/Users & Passwords.md",
+    "DockerLabs/grooti/images",
+    "DockerLabs/grooti-DockerLabs/images",
+    "DockerLabs/grooti-DockerLabs",
+    "DockerLabs/grooti/grooti-DockerLabs/images",
+    "DockerLabs/grooti/grooti-DockerLabs/Users & Passwords.md",
+    "DockerLabs/grooti/grooti-DockerLabs/4- Privilege Escalation.md",
+    "DockerLabs/grooti/grooti-DockerLabs/3 - Exploit.md",
+    "DockerLabs/grooti/grooti-DockerLabs/2 -Enumeration.md",
+    "DockerLabs/grooti/grooti-DockerLabs/1.2 - Servicios & Versiones.md",
+    "DockerLabs/grooti/grooti-DockerLabs/1- Recon.md",
+    "DockerLabs/grooti/grooti-DockerLabs",
+    "DockerLabs/grooti"
+  ]
+}
