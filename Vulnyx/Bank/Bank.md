@@ -230,7 +230,7 @@ wget http://192.168.6.132:9999/passwords.kdbx
 keepassxc passwords.kdbx
 ```
 
-![](mages/Pasted%20image%2020260903160253.png)
+![](images/Pasted%20image%2020260903160253.png)
 
 **Credenciales obtenidas:**
 
