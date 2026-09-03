@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DockerLabs/Chocolatelovers/ChocolateLovers.md",
+                "file": "Vulnyx/Bank/Bank.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ChocolateLovers"
+              "title": "Bank"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -185,20 +187,22 @@
   },
   "active": "c97dd93f02e28044",
   "lastOpenFiles": [
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714195751.png",
-    "DockerLabs/Chocolatelovers/ChocolateLovers.md",
+    "Pasted image 20260903164036.png",
+    "Vulnyx/Bank/images/Pasted image 20260903163041.png",
+    "DockerLabs/grooti/images/Pasted image 20260714182744.png",
+    "Vulnyx/Bank/Bank.md",
     "DockerLabs/grooti/Grooti.md",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714193619.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714193313.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714192502.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714191656.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714191550.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714191503.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714203808.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714202131.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714201630.png",
-    "DockerLabs/Chocolatelovers/images/Pasted image 20260714201354.png",
+    "Vulnyx/Bank/images/Pasted image 20260903150104.png",
+    "Vulnyx/Bank/images/Pasted image 20260903133825.png",
+    "Vulnyx/Bank/images/Pasted image 20260903133112.png",
+    "Vulnyx/Bank/images/Pasted image 20260903161633.png",
+    "Vulnyx/Bank/images/Pasted image 20260903161309.png",
+    "Vulnyx/Bank/images/Pasted image 20260903161236.png",
+    "Vulnyx/Bank/images/Pasted image 20260903161226.png",
+    "Vulnyx/Bank/images/Pasted image 20260903161034.png",
     "README.md",
+    "Vulnyx/Bank/images",
+    "DockerLabs/Chocolatelovers/ChocolateLovers.md",
     "DockerLabs/Chocolatelovers/images",
     "DockerLabs/Chocolatelovers",
     "DockerLabs/grooti-DockerLabs/1- Recon.md",
