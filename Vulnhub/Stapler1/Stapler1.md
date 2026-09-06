@@ -182,14 +182,14 @@ Con esta informacion nos dan dos posibles usuarios, John, Elly
 se puede ver que en el smb aunque no este abierto, se puede ver que uno se puede conectar como usuario invitado vamos a ver que pasa ahi
 
 
-![](Stapler1/images/Pasted%20image%2020260905172207.png)
+![](./images/Pasted%20image%2020260905172207.png)
 
 vemos extrañamente que el disk de kathy tiene un interesante mensaje, que dice que haces aqui vamos a echar un vistazo a eso primero que todo vamos a ver dentro de la carpeta de kathy donde se puede ver lo siguiente
 
-![](Stapler1/images/Pasted%20image%2020260905172656.png)
+![](./images/Pasted%20image%2020260905172656.png)
 
 continuando checkearemos el contenido de tmp para ver los archivos temporales:
-![](Stapler1/images/Pasted%20image%2020260905172726.png)
+![](./images/Pasted%20image%2020260905172726.png)
 
 a continuacion con esto vamos a sacar la informacion que tenemos y la exploraremos
 ```css
@@ -205,7 +205,7 @@ I'm making sure to backup anything important for Initech, Kathy
 
 en la carpeta backup vemos lo siguiente
 
-![](Stapler1/images/Pasted%20image%2020260905174312.png)
+![](./images/Pasted%20image%2020260905174312.png)
 
 vemos un wordpress que se estrajo esto da acceso a una pagina hecha en wordpress, aun no voy a revisar bien y tambien hay una configuracion de ftp, validando que el usuario anonymous si existe y se puede usar.
 
@@ -218,21 +218,21 @@ el puerto 80 redirige a un http sin nada, es algo raro
 # Port 12380
 
 en este puerto encontramos la verdadera pagina de la aplicacion
-![](Stapler1/images/Pasted%20image%2020260905174959.png)
+![](./images/Pasted%20image%2020260905174959.png)
 
 Con la siguiente informacion, se puede ver un mensaje, esto es una plantilla de bootstrap en la parte de abajo dice  Free Download here que al clickear nos redirije a la pagina de la plantilla
 
-![](Stapler1/images/Pasted%20image%2020260905175122.png)
+![](./images/Pasted%20image%2020260905175122.png)
 
 
 veo que no hay nada relevante en la pagina, no encontre nada intente fuzzear nada hasta que cambie el certificado a https y ocurrio lo siguiente:
 
-![](Stapler1/images/Pasted%20image%2020260905183816.png)
+![](./images/Pasted%20image%2020260905183816.png)
 
 hay una pagina y ya cambio la cosa.
 voy a escanear la web con nikto para averiguar si existen directorios:
 
-![](Stapler1/images/Pasted%20image%2020260905184158.png)
+![](./images/Pasted%20image%2020260905184158.png)
 
 
 se ve que encontro expuesto un archivo llamado robots.txt y un phpmyadmin, tambien que el dominio se llama red.initech
@@ -250,9 +250,9 @@ Disallow: /blogblog/
 dos paginas webs encontrada, vamos a acceder a blogblog ya que admin112233 es un xss
 
 dentro de aca en el apartado de login encontramos un wordpress
-![](Stapler1/images/Pasted%20image%2020260905184558.png)
+![](./images/Pasted%20image%2020260905184558.png)
 
-![](Stapler1/images/Pasted%20image%2020260905184607.png)
+![](./images/Pasted%20image%2020260905184607.png)
 
 
 
@@ -334,7 +334,7 @@ Interesting Finding(s):
 [+] Enumerating Users (via Passive and Aggressive Methods)
 
 ```
-![](Stapler1/images/Pasted%20image%2020260905185155.png)
+![](./images/Pasted%20image%2020260905185155.png)
 
 y unas rutas aparte en este caso esta habilitada la ruta de wp-content/uploads esto es importante:
 
@@ -348,7 +348,7 @@ despues de dejar un largo rato el wordpress haciendo fuerza bruta encontramos qu
 
 al entrar con el usuario john tenemos un wordpress:
 
-![](Stapler1/images/Pasted%20image%2020260905190924.png)
+![](./images/Pasted%20image%2020260905190924.png)
 
 
 de todas las opciones tenemos el de instalar un plugin y cargarlo en wp content:
@@ -479,15 +479,15 @@ revshell de pentest monkey php
 ```
 
 
-![](Stapler1/images/Pasted%20image%2020260905191259.png)
+![](./images/Pasted%20image%2020260905191259.png)
 
 instalamos el exploit al darle instalar sale lo siguiente:
 
-![](Stapler1/images/Pasted%20image%2020260905191345.png)
+![](./images/Pasted%20image%2020260905191345.png)
 
 aca es donde entra el archivo de configuracion ftp que encontramos en el SMB
 
-![](Stapler1/images/Pasted%20image%2020260905191557.png)
+![](./images/Pasted%20image%2020260905191557.png)
 
 rellanado de campos:
 
@@ -498,7 +498,7 @@ FTP Pass: incorrect
 se sube el archivo a /wp-content/uploads
 clickeando en shell.php ya accedemos a la maquina:
 
-![](Stapler1/images/Pasted%20image%2020260905191848.png)
+![](./images/Pasted%20image%2020260905191848.png)
 
 # Enumeración básica sistema
 ```css
@@ -533,7 +533,7 @@ chmod +x les.sh
 ```
 
 
-![](Stapler1/images/Pasted%20image%2020260905203309.png)
+![](./images/Pasted%20image%2020260905203309.png)
 
 este exploit lo instale y lo ejecute
 
@@ -541,7 +541,7 @@ este exploit lo instale y lo ejecute
 
 una vez en usuario root busque la flag:
 
-![](Stapler1/images/Pasted%20image%2020260905203429.png)
+![](./images/Pasted%20image%2020260905203429.png)
 
 
 ```
