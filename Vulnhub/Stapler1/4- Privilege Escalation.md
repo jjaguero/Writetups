@@ -31,15 +31,15 @@ chmod +x les.sh
 ```
 
 
-![](obsidian/03_Cybersecurity/Writetups/Vulnhub/Stapler1/images/Pasted%20image%2020260905203309.png)
+![](Stapler1/images/Pasted%20image%2020260905203309.png)
 
 este exploit lo instale y lo ejecute
 
-![](obsidian/03_Cybersecurity/Writetups/Vulnhub/Stapler1/images/Pasted%20image%2020260905203403.png)
+![](Stapler1/images/Pasted%20image%2020260905203403.png)
 
 una vez en usuario root busque la flag:
 
-![](obsidian/03_Cybersecurity/Writetups/Vulnhub/Stapler1/images/Pasted%20image%2020260905203429.png)
+![](Stapler1/images/Pasted%20image%2020260905203429.png)
 
 
 ```

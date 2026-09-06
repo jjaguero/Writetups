@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vulnhub/Stapler1/Stapler1.md",
+                "file": "Vulnhub/Stapler1/2 -Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stapler1"
+              "title": "2 -Enumeration"
             }
           }
         ],
@@ -200,6 +200,12 @@
   },
   "active": "5b088cfcf0e58dfa",
   "lastOpenFiles": [
+    "Vulnhub/Stapler1/3 - Exploit.md",
+    "Vulnhub/Stapler1/1- Recon.md",
+    "Vulnhub/Stapler1/1.2 - Servicios & Versiones.md",
+    "Vulnhub/Stapler1/2 -Enumeration.md",
+    "Vulnhub/Stapler1/4- Privilege Escalation.md",
+    "Vulnhub/Stapler1/Stapler1.md",
     "Vulnhub/Stapler1/images/Pasted image 20260905210652.png",
     "Vulnhub/Stapler1/images/Pasted image 20260905172726.png",
     "Vulnhub/Stapler1/zshrc_history.md",
@@ -207,13 +213,7 @@
     "Vulnhub/Stapler1/Proof - Flag.md",
     "Vulnhub/Stapler1/Interesting content.md",
     "Vulnhub/Stapler1/5 - Report.md",
-    "Vulnhub/Stapler1/4- Privilege Escalation.md",
-    "Vulnhub/Stapler1/3 - Exploit.md",
-    "Vulnhub/Stapler1/2 -Enumeration.md",
-    "Vulnhub/Stapler1/1.2 - Servicios & Versiones.md",
-    "Vulnhub/Stapler1/1- Recon.md",
     "Vulnhub/Stapler1/images/Pasted image 20260905174312.png",
-    "Vulnhub/Stapler1/Stapler1.md",
     "Pasted image 20260905210652.png",
     "Vulnhub/Stapler1/images/Pasted image 20260905172656.png",
     "Vulnhub/Stapler1/images/Pasted image 20260905172207.png",
@@ -221,7 +221,6 @@
     "Vulnhub/Stapler1/images/Pasted image 20260905175122.png",
     "Vulnhub/Stapler1/images/Pasted image 20260905183816.png",
     "Vulnhub/Stapler1/images/Pasted image 20260905184158.png",
-    "Vulnhub/Stapler1/images/Pasted image 20260905184558.png",
     "Vulnyx/Bank/Bank.md",
     "DockerLabs/grooti/Grooti.md",
     "README.md",
