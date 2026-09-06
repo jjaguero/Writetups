@@ -195,7 +195,8 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "markdown-importer:Abrir el importador de Markdown": false
     }
   },
   "active": "5b088cfcf0e58dfa",
